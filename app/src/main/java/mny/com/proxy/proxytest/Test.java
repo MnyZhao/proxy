@@ -4,6 +4,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
+ * 代理类要持有一个委托类的对象
+ * BusinessAgent 持有Vendor
+ * DynamicPorxy（这时候中介类就相当于代理类） 持有Vendor
  * 静态代理 程序运行前存在代理类成为静态代理
  * 代理类BusinessAgent与委托类Vendor都必须实现相同的接口
  * 动态代理 程序运行时创建的代理方式被成为 动态代理。
